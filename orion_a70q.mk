@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/a70q/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a70q
+PRODUCT_NAME := orion_a70q
 PRODUCT_DEVICE := a70q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A705
@@ -29,3 +29,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="a70q"
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+ORION_MAINTAINER := Lynx
+ORION_MAINTAINER_LINK := t.me/AliLynx
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS :=  true
+
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
