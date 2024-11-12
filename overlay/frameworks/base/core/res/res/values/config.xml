@@ -34,12 +34,4 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M-35.93,0C-29.26,0,-23.46,3.85,-22.46,9.56l.12.73a22.69,22.69,0,0,0,44.68,0l.12-.73C23.5,3.85,29.26,0,35.93,0Z @dp</string>
-        <!-- QS System Info -->
-    <bool name="config_supportSystemInfo">true</bool>
-    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
-    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
-    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
-    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
-    <integer name="config_sysCPUTempMultiplier">1000</integer>
-    <integer name="config_sysBatteryTempMultiplier">10</integer>
 </resources>
