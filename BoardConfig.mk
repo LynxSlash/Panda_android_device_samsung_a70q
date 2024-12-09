@@ -33,3 +33,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 include vendor/samsung/a70q/BoardConfigVendor.mk
+
+
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
