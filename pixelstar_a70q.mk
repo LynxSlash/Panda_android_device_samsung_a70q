@@ -15,17 +15,9 @@ $(call inherit-product, device/samsung/a70q/device.mk)
 $(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # PixelStar flags
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 PIXELSTAR_BUILD_TYPE := unofficial
 USE_PIXEL_CHARGER := true
-TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
-PRODUCT_NO_CAMERA := false
-ADD_CUSTOM_APPS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
